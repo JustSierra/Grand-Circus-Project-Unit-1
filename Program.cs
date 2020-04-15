@@ -7,7 +7,7 @@ namespace Deliverable1
         static void Main(string[] args)
         {
             String vacationType;
-            int groupSize;
+            char groupSize;
             string result;
 
             Console.WriteLine("What kind of vaction would you like to go on? Select one of the following");
@@ -26,7 +26,9 @@ namespace Deliverable1
             Console.WriteLine("(F) 6+");
 
             char selection = Console.ReadKey().KeyChar;
-            groupSize = int.Parse(Console.ReadLine());
+
+            Console.ReadLine();
+           
 
           
 
@@ -46,6 +48,8 @@ namespace Deliverable1
                     break;                
             }
 
+            Console.ReadLine();
+
             switch (selection)
             {
                 case 'B':
@@ -62,6 +66,7 @@ namespace Deliverable1
                     
             }
 
+            Console.ReadLine();
 
             switch (selection)
             {
@@ -78,7 +83,7 @@ namespace Deliverable1
                     Console.WriteLine("Since you chose an adventurous trip with probably 6+ people, you should take a helicopter for whitewater rafting in the grand canyon");
                     break;
 
-                   
+                    Console.ReadLine();
             }
 
 
